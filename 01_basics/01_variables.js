@@ -9,6 +9,11 @@ let accountState;
 
 // accountId = 500; // we can not change the value of const
 
+/*
+    Prefer not use const
+    because of issue in block scope and functional scope
+*/
+
 // console.log(accountId);
 
 // accountEmail = "hi@gmail.com" //we can change values of let
