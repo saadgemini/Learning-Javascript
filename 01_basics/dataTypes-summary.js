@@ -53,3 +53,35 @@ console.log(typeof outSideTemp);
 // array => object
 // objects => object
 // functions => function object
+
+
+// **** Storage In JavaScript *****
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubeName = "Saad Gemini"
+
+let anotherName = myYoutubeName;
+
+anotherName = "Gems Of Gemini"
+
+console.log(myYoutubeName);
+
+console.log(anotherName);
+
+let userOne = {
+    name : "saad",
+    mail : "saad@gmail.com",
+}
+
+let userTwo = userOne;
+
+// console.log(userOne.mail);
+
+// console.log(userTwo.mail);
+
+userTwo.mail = "saad123@gmail.com"
+
+console.log(userOne.mail);
+
+console.log(userTwo.mail);
