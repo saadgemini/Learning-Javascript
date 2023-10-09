@@ -14,7 +14,7 @@ let accountState;
     because of issue in block scope and functional scope
 */
 
-// console.log(accountId);
+// console.log(accountId); 
 
 // accountEmail = "hi@gmail.com" //we can change values of let
 
