@@ -57,7 +57,8 @@ console.log(typeof outSideTemp);
 
 // **** Storage In JavaScript *****
 
-// Stack (Primitive), Heap (Non-Primitive)
+// Stack (Primitive) => We get a copy of original value, original value is not change
+// Heap (Non-Primitive) => We get reference or original value, if we make change original value also change
 
 let myYoutubeName = "Saad Gemini"
 
