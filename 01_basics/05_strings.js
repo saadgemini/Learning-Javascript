@@ -46,4 +46,3 @@ console.log(gameName.split('-'));
 const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
 
 console.log(animals.slice(2));
-
