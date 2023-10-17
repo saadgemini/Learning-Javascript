@@ -55,10 +55,29 @@ const user =[
     }, 
 ]
 
-user[1].email
-console.log(tinderUSer);
-console.log(Object.keys(tinderUSer));
-console.log(Object.values(tinderUSer));
-console.log(Object.entries(tinderUSer)); // Returns an array of key/values of the enumerable properties of an object
+// user[1].email
+// console.log(tinderUSer);
+// console.log(Object.keys(tinderUSer));
+// console.log(Object.values(tinderUSer));
+// console.log(Object.entries(tinderUSer)); // Returns an array of key/values of the enumerable properties of an object
 
-console.log(tinderUSer.hasOwnProperty('isLoggedIn')); // Determines whether an object has a property with the specified name
+// console.log(tinderUSer.hasOwnProperty('isLoggedIn')); // Determines whether an object has a property with the specified name
+
+
+
+// ***** DE-STRUCTURING & JSON API *******
+
+// *** De-structuring *** => it means to break down complex structure into simpler part
+            //    => an efficient way to extract multiple values from data that is stored in Objects/Arrays
+            //    => makes it easy to extract only what is needed
+
+let book = {
+    name : "Math",
+    page : 120,
+    price : 250,
+}
+
+let {name : title, page, price = "500"} = book
+
+console.log(title);
+console.log(price);
