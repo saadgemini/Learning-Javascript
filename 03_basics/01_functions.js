@@ -51,5 +51,37 @@ function loginUserMessage(username = "Harry"){      // we can give some default 
     return `${username} just logged in`
 }
 
-console.log(loginUserMessage("Saad"));
+// console.log(loginUserMessage("Saad"));
 
+
+function calculateCartPrice(...num){
+    return num
+}
+
+// console.log(calculateCartPrice(200, 300, 500, 1500));
+
+const user = {
+    name : "Saad",
+    price : 199
+}
+
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.name} and price is ${anyobject.price}`);
+}
+
+// handleObject(user)
+
+handleObject({
+    name : "Samar",
+    price : 599
+})
+
+const newArray = [200, 500, 700, 800, 900]
+
+function getSecondValue(getArray){
+    return getArray[1]
+}
+
+console.log(getSecondValue(newArray));
+
+console.log(getSecondValue([15, 25, 50, 75]));
